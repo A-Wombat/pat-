@@ -1,0 +1,3 @@
+"D:\program files\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PATexcise.dir/objects.a
+"D:\program files\mingw64\bin\ar.exe" cr CMakeFiles\PATexcise.dir/objects.a @CMakeFiles\PATexcise.dir\objects1.rsp
+"D:\program files\mingw64\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\PATexcise.dir/objects.a -Wl,--no-whole-archive  -o PATexcise.exe -Wl,--out-implib,libPATexcise.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PATexcise.dir\linklibs.rsp
