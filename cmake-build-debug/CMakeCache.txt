@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+1-10_BINARY_DIR:STATIC=D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10
+
+//Value Computed by CMake
+1-10_SOURCE_DIR:STATIC=D:/Myprogram Data/codeWorkSpace/clion/PATexcise/PATB/1-10
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=D:/program files/mingw64/bin/addr2line.exe
 
@@ -363,7 +369,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

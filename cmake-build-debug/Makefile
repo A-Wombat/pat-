@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\program files\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\program files\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -139,7 +139,7 @@ depend:
 
 # fast build rule for target.
 1001/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/build
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1001.dir\build.make PATB/1-10/CMakeFiles/1001.dir/build
 .PHONY : 1001/fast
 
 #=============================================================================
@@ -152,7 +152,7 @@ depend:
 
 # fast build rule for target.
 1002/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1002.dir\build.make CMakeFiles/1002.dir/build
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1002.dir\build.make PATB/1-10/CMakeFiles/1002.dir/build
 .PHONY : 1002/fast
 
 #=============================================================================
@@ -165,7 +165,7 @@ depend:
 
 # fast build rule for target.
 1003/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1003.dir\build.make CMakeFiles/1003.dir/build
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1003.dir\build.make PATB/1-10/CMakeFiles/1003.dir/build
 .PHONY : 1003/fast
 
 #=============================================================================
@@ -178,116 +178,47 @@ depend:
 
 # fast build rule for target.
 1004/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1004.dir\build.make CMakeFiles/1004.dir/build
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1004.dir\build.make PATB/1-10/CMakeFiles/1004.dir/build
 .PHONY : 1004/fast
 
-1001.obj: 1001.cpp.obj
+#=============================================================================
+# Target rules for targets named 1005
 
-.PHONY : 1001.obj
+# Build rule for target.
+1005: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1005
+.PHONY : 1005
 
-# target to build an object file
-1001.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/1001.cpp.obj
-.PHONY : 1001.cpp.obj
+# fast build rule for target.
+1005/fast:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1005.dir\build.make PATB/1-10/CMakeFiles/1005.dir/build
+.PHONY : 1005/fast
 
-1001.i: 1001.cpp.i
+#=============================================================================
+# Target rules for targets named 1006
 
-.PHONY : 1001.i
+# Build rule for target.
+1006: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1006
+.PHONY : 1006
 
-# target to preprocess a source file
-1001.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/1001.cpp.i
-.PHONY : 1001.cpp.i
+# fast build rule for target.
+1006/fast:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1006.dir\build.make PATB/1-10/CMakeFiles/1006.dir/build
+.PHONY : 1006/fast
 
-1001.s: 1001.cpp.s
+#=============================================================================
+# Target rules for targets named 1007
 
-.PHONY : 1001.s
+# Build rule for target.
+1007: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1007
+.PHONY : 1007
 
-# target to generate assembly for a file
-1001.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/1001.cpp.s
-.PHONY : 1001.cpp.s
-
-1002.obj: 1002.cpp.obj
-
-.PHONY : 1002.obj
-
-# target to build an object file
-1002.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1002.dir\build.make CMakeFiles/1002.dir/1002.cpp.obj
-.PHONY : 1002.cpp.obj
-
-1002.i: 1002.cpp.i
-
-.PHONY : 1002.i
-
-# target to preprocess a source file
-1002.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1002.dir\build.make CMakeFiles/1002.dir/1002.cpp.i
-.PHONY : 1002.cpp.i
-
-1002.s: 1002.cpp.s
-
-.PHONY : 1002.s
-
-# target to generate assembly for a file
-1002.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1002.dir\build.make CMakeFiles/1002.dir/1002.cpp.s
-.PHONY : 1002.cpp.s
-
-1003.obj: 1003.cpp.obj
-
-.PHONY : 1003.obj
-
-# target to build an object file
-1003.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1003.dir\build.make CMakeFiles/1003.dir/1003.cpp.obj
-.PHONY : 1003.cpp.obj
-
-1003.i: 1003.cpp.i
-
-.PHONY : 1003.i
-
-# target to preprocess a source file
-1003.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1003.dir\build.make CMakeFiles/1003.dir/1003.cpp.i
-.PHONY : 1003.cpp.i
-
-1003.s: 1003.cpp.s
-
-.PHONY : 1003.s
-
-# target to generate assembly for a file
-1003.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1003.dir\build.make CMakeFiles/1003.dir/1003.cpp.s
-.PHONY : 1003.cpp.s
-
-1004.obj: 1004.cpp.obj
-
-.PHONY : 1004.obj
-
-# target to build an object file
-1004.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1004.dir\build.make CMakeFiles/1004.dir/1004.cpp.obj
-.PHONY : 1004.cpp.obj
-
-1004.i: 1004.cpp.i
-
-.PHONY : 1004.i
-
-# target to preprocess a source file
-1004.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1004.dir\build.make CMakeFiles/1004.dir/1004.cpp.i
-.PHONY : 1004.cpp.i
-
-1004.s: 1004.cpp.s
-
-.PHONY : 1004.s
-
-# target to generate assembly for a file
-1004.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1004.dir\build.make CMakeFiles/1004.dir/1004.cpp.s
-.PHONY : 1004.cpp.s
+# fast build rule for target.
+1007/fast:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1007.dir\build.make PATB/1-10/CMakeFiles/1007.dir/build
+.PHONY : 1007/fast
 
 # Help Target
 help:
@@ -301,18 +232,9 @@ help:
 	@echo ... 1002
 	@echo ... 1003
 	@echo ... 1004
-	@echo ... 1001.obj
-	@echo ... 1001.i
-	@echo ... 1001.s
-	@echo ... 1002.obj
-	@echo ... 1002.i
-	@echo ... 1002.s
-	@echo ... 1003.obj
-	@echo ... 1003.i
-	@echo ... 1003.s
-	@echo ... 1004.obj
-	@echo ... 1004.i
-	@echo ... 1004.s
+	@echo ... 1005
+	@echo ... 1006
+	@echo ... 1007
 .PHONY : help
 
 

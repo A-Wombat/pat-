@@ -1,6 +1,11 @@
-D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/CMakeFiles/1001.dir
-D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/CMakeFiles/1002.dir
-D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/CMakeFiles/1003.dir
 D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/CMakeFiles/1004.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10/CMakeFiles/1001.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10/CMakeFiles/1002.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10/CMakeFiles/rebuild_cache.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10/CMakeFiles/1003.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10/CMakeFiles/edit_cache.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10/CMakeFiles/1004.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10/CMakeFiles/1005.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10/CMakeFiles/1006.dir
+D:/Myprogram Data/codeWorkSpace/clion/PATexcise/cmake-build-debug/PATB/1-10/CMakeFiles/1007.dir

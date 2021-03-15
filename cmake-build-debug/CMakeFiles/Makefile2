@@ -72,133 +72,238 @@ CMAKE_BINARY_DIR = "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/1001.dir/all
-all: CMakeFiles/1002.dir/all
-all: CMakeFiles/1003.dir/all
-all: CMakeFiles/1004.dir/all
+all: PATB/1-10/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: PATB/1-10/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/1001.dir/clean
-clean: CMakeFiles/1002.dir/clean
-clean: CMakeFiles/1003.dir/clean
-clean: CMakeFiles/1004.dir/clean
+clean: PATB/1-10/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1001.dir
+# Directory level rules for directory PATB/1-10
+
+# Recursive "all" directory target.
+PATB/1-10/all: PATB/1-10/CMakeFiles/1001.dir/all
+PATB/1-10/all: PATB/1-10/CMakeFiles/1002.dir/all
+PATB/1-10/all: PATB/1-10/CMakeFiles/1003.dir/all
+PATB/1-10/all: PATB/1-10/CMakeFiles/1004.dir/all
+PATB/1-10/all: PATB/1-10/CMakeFiles/1005.dir/all
+PATB/1-10/all: PATB/1-10/CMakeFiles/1006.dir/all
+PATB/1-10/all: PATB/1-10/CMakeFiles/1007.dir/all
+
+.PHONY : PATB/1-10/all
+
+# Recursive "preinstall" directory target.
+PATB/1-10/preinstall:
+
+.PHONY : PATB/1-10/preinstall
+
+# Recursive "clean" directory target.
+PATB/1-10/clean: PATB/1-10/CMakeFiles/1001.dir/clean
+PATB/1-10/clean: PATB/1-10/CMakeFiles/1002.dir/clean
+PATB/1-10/clean: PATB/1-10/CMakeFiles/1003.dir/clean
+PATB/1-10/clean: PATB/1-10/CMakeFiles/1004.dir/clean
+PATB/1-10/clean: PATB/1-10/CMakeFiles/1005.dir/clean
+PATB/1-10/clean: PATB/1-10/CMakeFiles/1006.dir/clean
+PATB/1-10/clean: PATB/1-10/CMakeFiles/1007.dir/clean
+
+.PHONY : PATB/1-10/clean
+
+#=============================================================================
+# Target rules for target PATB/1-10/CMakeFiles/1001.dir
 
 # All Build rule for target.
-CMakeFiles/1001.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/build
+PATB/1-10/CMakeFiles/1001.dir/all:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1001.dir\build.make PATB/1-10/CMakeFiles/1001.dir/depend
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1001.dir\build.make PATB/1-10/CMakeFiles/1001.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target 1001"
-.PHONY : CMakeFiles/1001.dir/all
+.PHONY : PATB/1-10/CMakeFiles/1001.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/1001.dir/rule: cmake_check_build_system
+PATB/1-10/CMakeFiles/1001.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1001.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PATB/1-10/CMakeFiles/1001.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/1001.dir/rule
+.PHONY : PATB/1-10/CMakeFiles/1001.dir/rule
 
 # Convenience name for target.
-1001: CMakeFiles/1001.dir/rule
+1001: PATB/1-10/CMakeFiles/1001.dir/rule
 
 .PHONY : 1001
 
 # clean rule for target.
-CMakeFiles/1001.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/clean
-.PHONY : CMakeFiles/1001.dir/clean
+PATB/1-10/CMakeFiles/1001.dir/clean:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1001.dir\build.make PATB/1-10/CMakeFiles/1001.dir/clean
+.PHONY : PATB/1-10/CMakeFiles/1001.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1002.dir
+# Target rules for target PATB/1-10/CMakeFiles/1002.dir
 
 # All Build rule for target.
-CMakeFiles/1002.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1002.dir\build.make CMakeFiles/1002.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1002.dir\build.make CMakeFiles/1002.dir/build
+PATB/1-10/CMakeFiles/1002.dir/all:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1002.dir\build.make PATB/1-10/CMakeFiles/1002.dir/depend
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1002.dir\build.make PATB/1-10/CMakeFiles/1002.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target 1002"
-.PHONY : CMakeFiles/1002.dir/all
+.PHONY : PATB/1-10/CMakeFiles/1002.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/1002.dir/rule: cmake_check_build_system
+PATB/1-10/CMakeFiles/1002.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1002.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PATB/1-10/CMakeFiles/1002.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/1002.dir/rule
+.PHONY : PATB/1-10/CMakeFiles/1002.dir/rule
 
 # Convenience name for target.
-1002: CMakeFiles/1002.dir/rule
+1002: PATB/1-10/CMakeFiles/1002.dir/rule
 
 .PHONY : 1002
 
 # clean rule for target.
-CMakeFiles/1002.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1002.dir\build.make CMakeFiles/1002.dir/clean
-.PHONY : CMakeFiles/1002.dir/clean
+PATB/1-10/CMakeFiles/1002.dir/clean:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1002.dir\build.make PATB/1-10/CMakeFiles/1002.dir/clean
+.PHONY : PATB/1-10/CMakeFiles/1002.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1003.dir
+# Target rules for target PATB/1-10/CMakeFiles/1003.dir
 
 # All Build rule for target.
-CMakeFiles/1003.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1003.dir\build.make CMakeFiles/1003.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1003.dir\build.make CMakeFiles/1003.dir/build
+PATB/1-10/CMakeFiles/1003.dir/all:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1003.dir\build.make PATB/1-10/CMakeFiles/1003.dir/depend
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1003.dir\build.make PATB/1-10/CMakeFiles/1003.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target 1003"
-.PHONY : CMakeFiles/1003.dir/all
+.PHONY : PATB/1-10/CMakeFiles/1003.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/1003.dir/rule: cmake_check_build_system
+PATB/1-10/CMakeFiles/1003.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1003.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PATB/1-10/CMakeFiles/1003.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/1003.dir/rule
+.PHONY : PATB/1-10/CMakeFiles/1003.dir/rule
 
 # Convenience name for target.
-1003: CMakeFiles/1003.dir/rule
+1003: PATB/1-10/CMakeFiles/1003.dir/rule
 
 .PHONY : 1003
 
 # clean rule for target.
-CMakeFiles/1003.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1003.dir\build.make CMakeFiles/1003.dir/clean
-.PHONY : CMakeFiles/1003.dir/clean
+PATB/1-10/CMakeFiles/1003.dir/clean:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1003.dir\build.make PATB/1-10/CMakeFiles/1003.dir/clean
+.PHONY : PATB/1-10/CMakeFiles/1003.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1004.dir
+# Target rules for target PATB/1-10/CMakeFiles/1004.dir
 
 # All Build rule for target.
-CMakeFiles/1004.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1004.dir\build.make CMakeFiles/1004.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1004.dir\build.make CMakeFiles/1004.dir/build
+PATB/1-10/CMakeFiles/1004.dir/all:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1004.dir\build.make PATB/1-10/CMakeFiles/1004.dir/depend
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1004.dir\build.make PATB/1-10/CMakeFiles/1004.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target 1004"
-.PHONY : CMakeFiles/1004.dir/all
+.PHONY : PATB/1-10/CMakeFiles/1004.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/1004.dir/rule: cmake_check_build_system
+PATB/1-10/CMakeFiles/1004.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1004.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PATB/1-10/CMakeFiles/1004.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/1004.dir/rule
+.PHONY : PATB/1-10/CMakeFiles/1004.dir/rule
 
 # Convenience name for target.
-1004: CMakeFiles/1004.dir/rule
+1004: PATB/1-10/CMakeFiles/1004.dir/rule
 
 .PHONY : 1004
 
 # clean rule for target.
-CMakeFiles/1004.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1004.dir\build.make CMakeFiles/1004.dir/clean
-.PHONY : CMakeFiles/1004.dir/clean
+PATB/1-10/CMakeFiles/1004.dir/clean:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1004.dir\build.make PATB/1-10/CMakeFiles/1004.dir/clean
+.PHONY : PATB/1-10/CMakeFiles/1004.dir/clean
+
+#=============================================================================
+# Target rules for target PATB/1-10/CMakeFiles/1005.dir
+
+# All Build rule for target.
+PATB/1-10/CMakeFiles/1005.dir/all:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1005.dir\build.make PATB/1-10/CMakeFiles/1005.dir/depend
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1005.dir\build.make PATB/1-10/CMakeFiles/1005.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target 1005"
+.PHONY : PATB/1-10/CMakeFiles/1005.dir/all
+
+# Build rule for subdir invocation for target.
+PATB/1-10/CMakeFiles/1005.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PATB/1-10/CMakeFiles/1005.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 0
+.PHONY : PATB/1-10/CMakeFiles/1005.dir/rule
+
+# Convenience name for target.
+1005: PATB/1-10/CMakeFiles/1005.dir/rule
+
+.PHONY : 1005
+
+# clean rule for target.
+PATB/1-10/CMakeFiles/1005.dir/clean:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1005.dir\build.make PATB/1-10/CMakeFiles/1005.dir/clean
+.PHONY : PATB/1-10/CMakeFiles/1005.dir/clean
+
+#=============================================================================
+# Target rules for target PATB/1-10/CMakeFiles/1006.dir
+
+# All Build rule for target.
+PATB/1-10/CMakeFiles/1006.dir/all:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1006.dir\build.make PATB/1-10/CMakeFiles/1006.dir/depend
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1006.dir\build.make PATB/1-10/CMakeFiles/1006.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target 1006"
+.PHONY : PATB/1-10/CMakeFiles/1006.dir/all
+
+# Build rule for subdir invocation for target.
+PATB/1-10/CMakeFiles/1006.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PATB/1-10/CMakeFiles/1006.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 0
+.PHONY : PATB/1-10/CMakeFiles/1006.dir/rule
+
+# Convenience name for target.
+1006: PATB/1-10/CMakeFiles/1006.dir/rule
+
+.PHONY : 1006
+
+# clean rule for target.
+PATB/1-10/CMakeFiles/1006.dir/clean:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1006.dir\build.make PATB/1-10/CMakeFiles/1006.dir/clean
+.PHONY : PATB/1-10/CMakeFiles/1006.dir/clean
+
+#=============================================================================
+# Target rules for target PATB/1-10/CMakeFiles/1007.dir
+
+# All Build rule for target.
+PATB/1-10/CMakeFiles/1007.dir/all:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1007.dir\build.make PATB/1-10/CMakeFiles/1007.dir/depend
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1007.dir\build.make PATB/1-10/CMakeFiles/1007.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target 1007"
+.PHONY : PATB/1-10/CMakeFiles/1007.dir/all
+
+# Build rule for subdir invocation for target.
+PATB/1-10/CMakeFiles/1007.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PATB/1-10/CMakeFiles/1007.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\PATexcise\cmake-build-debug\CMakeFiles" 0
+.PHONY : PATB/1-10/CMakeFiles/1007.dir/rule
+
+# Convenience name for target.
+1007: PATB/1-10/CMakeFiles/1007.dir/rule
+
+.PHONY : 1007
+
+# clean rule for target.
+PATB/1-10/CMakeFiles/1007.dir/clean:
+	$(MAKE) $(MAKESILENT) -f PATB\1-10\CMakeFiles\1007.dir\build.make PATB/1-10/CMakeFiles/1007.dir/clean
+.PHONY : PATB/1-10/CMakeFiles/1007.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

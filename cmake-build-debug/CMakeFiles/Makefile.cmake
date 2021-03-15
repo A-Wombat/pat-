@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../PATB/1-10/CMakeLists.txt"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeRCCompiler.cmake"
@@ -49,12 +50,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "PATB/1-10/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/1001.dir/DependInfo.cmake"
-  "CMakeFiles/1002.dir/DependInfo.cmake"
-  "CMakeFiles/1003.dir/DependInfo.cmake"
-  "CMakeFiles/1004.dir/DependInfo.cmake"
+  "PATB/1-10/CMakeFiles/1001.dir/DependInfo.cmake"
+  "PATB/1-10/CMakeFiles/1002.dir/DependInfo.cmake"
+  "PATB/1-10/CMakeFiles/1003.dir/DependInfo.cmake"
+  "PATB/1-10/CMakeFiles/1004.dir/DependInfo.cmake"
+  "PATB/1-10/CMakeFiles/1005.dir/DependInfo.cmake"
+  "PATB/1-10/CMakeFiles/1006.dir/DependInfo.cmake"
+  "PATB/1-10/CMakeFiles/1007.dir/DependInfo.cmake"
   )
